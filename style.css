@@ -1,0 +1,159 @@
+/* Réinitialisation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps du site */
+body {
+  font-family: Helvetica, sans-serif;
+  background: #f4f9f9;
+  color: #333;
+}
+header img{
+    width: 40%;
+    height: 150px;
+}
+article,aside{
+  display: inline-block;
+  margin-left: 10px;
+}
+article{border: #d9ff00 1px;
+
+}
+section article{
+  font-size: 16px;
+  display: inline-block;
+  margin: 40px;
+}
+/* Barre de navigation */
+nav {
+  background: #d9ff00;
+  padding: 15px;
+  text-align: center;
+  color: #222222;
+}
+
+nav a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Titres */
+h1, h2, h3,{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Paragraphes */
+p {
+  margin-bottom: 10px;
+}
+
+/* Formulaire */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Bouton */
+button {
+  background: #00ff37;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #00b30c;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: hsla(69, 94%, 50%, 0.941);
+  color: black;
+  margin-top: 40px;
+}
+.profil {
+    border-radius: 50%;          /* rend la photo ronde */
+    width: 220px;                /* taille de la photo */
+    border: 4px solid #80BFFF;   /* contour assorti à ta barre de navigation */
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* effet d’ombre élégante */
+}
+.presentation {
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.presentation h3 {
+    font-size: 22px;
+    color: #004080;
+    margin-bottom: 5px;
+}
+
+.presentation p {
+    font-size: 16px;
+    color: #555;
+}
+.profil-section {
+    display: flex;
+    align-items: center;   /* aligne verticalement */
+    justify-content: center; /* centre le tout dans la page */
+    gap: 20px;             /* espace entre la photo et le texte */
+    margin-top: 30px;
+}
+
+.profil {
+    border-radius: 50%;
+    width: 180px;
+    border: 3px solid #80BFFF;
+}
+
+.presentation h3 {
+    font-size: 22px;
+    color: #004080;
+    margin: 0;
+}
+
+.presentation p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 0 0;
+} 
+section p i {
+    color: #666;
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+}
